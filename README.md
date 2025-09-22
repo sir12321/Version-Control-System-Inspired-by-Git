@@ -1,6 +1,4 @@
-------------------------------------------------------------
-COL106 Long Assignment 1 — README
-------------------------------------------------------------
+Notes and Features
 
 Author: Manya Jain
 
@@ -11,23 +9,23 @@ How to Compile and Run
 Windows:
 1. Open a terminal in the assignment folder.
 2. Run the provided batch file:
-    compile_long_assignment_1.bat
-   This will compile the code and create long_assignment_1.exe.
+    compile_version_control_system.bat
+   This will compile the code and create version_control_system.exe.
 3. Run the program:
-    long_assignment_1.exe
+    version_control_system.exe
    (You can type commands interactively or redirect input from a file)
 
 Linux/Mac:
 1. Open a terminal in the assignment folder.
 2. Use the provided shell script:
-    compile_long_assignment.sh
-   This will compile the code and create long_assignment_1.exe.
+    compile_version_control_system.sh
+   This will compile the code and create version_control_system.exe.
 3. Make the script executable (if needed):
-    chmod +x compile_long_assignment.sh
+    chmod +x compile_version_control_system.sh
 4. Run the script:
-    ./compile_long_assignment.sh
+    ./compile_version_control_system.sh
 5. Run the program:
-    ./long_assignment_1.exe
+    ./version_control_system.exe
    (You can type commands interactively or redirect input from a file)
 
 Quickstart and Usage
@@ -164,18 +162,18 @@ Notes
 - INSERT appends to the active content; UPDATE replaces it.
 - You cannot modify an already snapshotted node; a new child version is created.
 - HISTORY shows snapshots along the current branch (root -> active).
+- RECENT_FILES and BIGGEST_TREES use max-heaps for efficient queries.
 - All errors are handled and reported to stderr as "Error: <message>".
 - Every command prints a clear output for user testing.
 - Type HELP at any time to see this list of commands.
 - Type EXIT to quit the CLI cleanly.
 
 ------------------------------------------------------------
-Data Structures
-------------------------------------------------------------
+Internal Data Structures
 - TreeNode: Represents a version of a file, storing content, message, timestamps, parent, and children.
-- File: Manages the version tree for a single file, supporting all file operations.
-- Heaps: Used for efficiently listing files by recency and version count.
-- HashMap: Maps filenames to File objects for O(1) access.
+- File: Manages the version tree for a single file, supporting all file operations (read, insert, update, snapshot, rollback, history).
+- Heaps: Used for efficiently listing files by recency (RECENT_FILES) and version count (BIGGEST_TREES).
+- 3D Vector: Used to map filenames to File objects for O(1) access based on first and last character.
 
 ------------------------------------------------------------
 Contact : 9425056299
