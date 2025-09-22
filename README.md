@@ -3,7 +3,6 @@ COL106 Long Assignment 1 — README
 ------------------------------------------------------------
 
 Author: Manya Jain
-Entry Number: 2024CS10351
 
 ------------------------------------------------------------
 How to Compile and Run
@@ -181,4 +180,4 @@ Data Structures
 ------------------------------------------------------------
 Contact : 9425056299
 ------------------------------------------------------------
-For any queries, contact: Manya Jain (2024CS10351)
+For any queries, contact: Manya Jain 
