@@ -1,3 +1,5 @@
+Version Control System Inspired by Git
+
 Notes and Features
 
 Author: Manya Jain
@@ -176,6 +178,7 @@ Internal Data Structures
 - 3D Vector: Used to map filenames to File objects for O(1) access based on first and last character.
 
 ------------------------------------------------------------
-Contact : 9425056299
+Contact
 ------------------------------------------------------------
-For any queries, contact: Manya Jain 
+For any queries, contact: Manya Jain
+Email: cs1240351@iitd.ac.in
