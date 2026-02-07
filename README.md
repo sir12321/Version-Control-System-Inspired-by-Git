@@ -1,7 +1,5 @@
 Version Control System Inspired by Git
 
-Notes and Features
-
 Author: Manya Jain
 
 ------------------------------------------------------------
