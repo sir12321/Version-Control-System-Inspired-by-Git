@@ -174,9 +174,3 @@ Internal Data Structures
 - File: Manages the version tree for a single file, supporting all file operations (read, insert, update, snapshot, rollback, history).
 - Heaps: Used for efficiently listing files by recency (RECENT_FILES) and version count (BIGGEST_TREES).
 - 3D Vector: Used to map filenames to File objects for O(1) access based on first and last character.
-
-------------------------------------------------------------
-Contact
-------------------------------------------------------------
-For any queries, contact: Manya Jain
-Email: cs1240351@iitd.ac.in
